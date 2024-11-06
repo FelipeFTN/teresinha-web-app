@@ -1,17 +1,11 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-import AboutContent from './components/AboutContent.vue'
-import NavigationBar from './components/NavigationBar.vue'
-import HeaderBackground from './components/HeaderBackground.vue'
+
+import { RouterView } from 'vue-router'
 
 </script>
 
 <template>
-  <NavigationBar />
-  <HeaderBackground />
-  <AboutContent />
-
-  <!-- <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
