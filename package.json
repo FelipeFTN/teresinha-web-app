@@ -1,10 +1,10 @@
 {
-  "name": "terezinha-web-app",
+  "name": "teresinha-web-app",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "EXTEND_ESLINT=true vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix",
